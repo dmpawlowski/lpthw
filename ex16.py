@@ -32,3 +32,4 @@ target.write("\n")
 print "And finally, we close it."
 target.close()
 
+#extra credit has not been completed
