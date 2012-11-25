@@ -4,12 +4,14 @@ $def with (greeting)
     <head>
         <title>Gothons of Planet Percal #25</title>
     <head>
-<body>
+  <body>
 
-$if greeting:
-    I just wanted to say <em style="color: green; font-size: 2em;">$greeting</em>.
-$else:
-    <em>Hello</em>, world!
-    
-</body>
+    $if greeting:
+        I just wanted to say <em style="color: green; font-size: 2em;">$greeting</em>.
+    $else:
+        <em>Hello</em>, world!
+    <p>
+      <a href="http://localhost:8080/hello">Home</a>
+    </p>
+  </body>
 </html>
